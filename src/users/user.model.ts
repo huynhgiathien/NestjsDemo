@@ -1,0 +1,37 @@
+export interface User {
+  user_id?: number;
+  first_name: string;
+  middle_name?: string;
+  last_name: string;
+  email: string;
+  branch_id: number;
+  department_id: number;
+  position_id: number;
+  profile_image?: number;
+  resume?: number;
+  role: number;
+  current_task?: number;
+  password?: string;
+  full_time: boolean;
+  salary?: number;
+  birthdate?: Date;
+  active?: boolean;
+  created_at?: Date;
+  updated_at?: Date;
+  company_id?: number;
+  company_name: string;
+  project_lock?: number;
+  leave_days?: number;
+  buffer_leave_days?: DoubleRange;
+  slack_id?: string;
+  staff_id?: string;
+  wfh_days?: number;
+  level_id?: number;
+  gender?: string;
+  is_deleted?: boolean;
+  task_category_id?: number;
+  standard_level_id?: number;
+  last_login?: Date;
+  no_clock_time?: boolean;
+  is_partner_company?: boolean;
+}
